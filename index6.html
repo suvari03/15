@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merkeze alma</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #flex {
+            margin: 20px;
+            display: flex;
+            height: 400px;
+            padding: 20px;
+            background-color: orange;
+            flex-direction: row;
+            justify-content: center;
+            /*bu ikisi divleri oratlıyor*/
+            align-items: center;
+            /*bu ikisi divleri oratlıyor */
+        }
+
+        .item {
+            display: flex;
+            background-color: #f1f1f1;
+            margin: 10px;
+            padding: 20px;
+            font-size: 20px;
+            border-radius: 5px;
+            width: 100px;
+            height: 100px;
+            justify-content: center;
+            align-items: center;
+            text-align: justify;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Div ortalama</h1>
+    <div id="flex">
+        <div class="item">Kutu1 Lorem ipsum dolor sit amet.</div>
+        <div class="item">Kutu2</div>
+    </div>
+</body>
+
+</html>

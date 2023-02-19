@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex İtem</title>
+    <style>
+        #flex{
+            display: flex;
+            background-color: #f1f1f1;
+            /* justify-content: center; */
+            height: 400px;
+            align-items: self-start;
+            justify-content: center;
+
+        }
+        #flex>div {
+            background-color: orange;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            line-height: 75px; /*padding vermeden içerikle yükseklik verdik*/
+            font-size: 30px;
+            color: white;
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex Elemanlar (konteynırdaki elemanlar)</h1>
+    <div id="flex"> 
+        <div>1</div>
+        <div style="align-self: center; order: 1;">2</div> 
+<!-- akıştan ayrılarak alta atar -->
+        <div>3</div>
+        <div>4</div>
+      
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+Css FlexBox Layout
+
+display:flex;
+
+dışta Flex container bu display:flex
+altta flex item 
+
+
+flex container Özellikler
+flex-direction: column; /*alt alta sıralar*/
+flex-direction: column-reverse; /*alt alta sıralar*/
+flex-direction:row-reverse; tersine sırlar
+flex-wrap: wrap;  aşağıya iniyor ekrana sığmıyorsa
+flex-wrap: no-wrap; aşaya inmeyi engelliyor satırı uzatıyor
+flex-wrap:wrap-reverse; sağdan sola ters sıralıyor
+
+
+justify-content: center; yatayda hizalıyor ortalıyor
+justify-content:flex-start; kutuları başa yapıştırıyor
+justify-content:flex-end; kutuları satırın sonuna dayıyor
+justify-content:space-around; aralarına boşluk koyuyor
+justify-content:space-between; baş ve son sıfırladı araları aynı ayarladı
+justify-content:space-evenly; tüm boşlukları eşit ayraladı. başına ve sonuna verdi
+
+
+aling-item()
+align-items:stretch; defoult bu
+ align-items:flex-end; kutu sonunda hizaladı
+ align-items:flex-start; basından hizalr
+ align-items:baseline; yazıdan ortalar kutuyuda ona göre konumlandırır.
+
+
+ aling-content()
+  align-content: center; çok saıyda div olursa dikeyde ortalıyor
+  align-content:flex-start; kutuları yukarı ayarladı
+  align-content:flex-end; alttan hizalıyor
+  align-content:space-around; baştan alttan eşitliyor biraz az sonra arayı eşitliyor
+  align-content:space-between; baş ve sonu sıfırlıyor kalan boşluk eşitliyor
+  align-content:space-evenly;bütün boşlukları eşitliyor dikeyde
+
+  gap()
+   gap: 20px; yatay ve dikeyde 20px atar
+   row-gap: 30px;   satır aralarına verir
+   column-gap: 5px; kolonların arasına verir
+   gap:30px 5px; satır sütün arası değer girerek ayarlarız (row/column)
+
+
+   tek satırda align item
+   çoklu satırda align content
+
+   order sıralar
+
+flex-graw büyürken ne kadar büyüyeceğini belirliyor
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/align-self
+https://www.w3schools.com/cssref/tryit.php?filename=trycss3_flex-grow
+https://www.w3schools.com/cssref/css3_pr_flex-grow.php
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+
+örnek buton benim bulduğum
+https://freefrontend.com/css-buttons/
